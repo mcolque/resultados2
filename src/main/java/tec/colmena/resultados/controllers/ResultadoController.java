@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ResultadoController {
 	@GetMapping("/resultado/{numero}")
 	public String mostrarResultado(@PathVariable Float numero) {
-		return "El resultado es : "+numero;
+		return "El resultado es : " + numero;
 	}
 }
